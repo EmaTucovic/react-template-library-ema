@@ -1,4 +1,5 @@
 import Hello from "./Hello";
-// import Foo from "./Foo";
+import * as math from "./utils";
 
-export { Hello, Foo };
+export { Hello, math };
+
