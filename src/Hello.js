@@ -1,5 +1,5 @@
 import React from "react";
-import * as styles from "./styles.css";
+import styles from "./styles.css";
 
 type MyType = {
   name: string

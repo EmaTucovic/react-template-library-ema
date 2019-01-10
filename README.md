@@ -27,7 +27,10 @@ WEBPACK CONFIG LIBRARY
 9. publish lib
     1. npm login
     2. npm publish —access=public
-10. add jest for testing
+10. add jest and react testing library for testing
+	1. install react testing library , jest , babel-jest, babel-polyfill
+	2. add mock for css files fror jest and add moduleNameMapper
+	3. don;t forget to import react in jest test as well!
 11. add style-loader (to add script tag) and css-loader (to import css)
 	1. install 
 	2. add options for css-loader: { modules: true, localIdentName: '[path][name]__[local]--[hash:base64:5]', }, -  now you can import as module
@@ -41,4 +44,4 @@ https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658
 	1. create public folder which will have static files - index.html
 	2. in index.html add script with my bundled and transpiled file and add div which will contain react components
 	3. instal webpack-dev-server to serve app
-	
+
